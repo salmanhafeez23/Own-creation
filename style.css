@@ -1,0 +1,92 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    margin:0px;
+}
+
+.first-line{
+    font-size: 50px;
+}
+h1{
+font-size: 50px;
+color: brown;
+}
+.half-width{
+    width: 30%;
+    float: left;
+    margin-left:10%;
+    padding-left:5% ;
+    margin-top: 20%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-part{
+    background-image: url(images/header-bg.png);
+    height: 800px ;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    background-position: top;
+}
+h2{
+    font-size: 50px;
+}
+.biography-width{
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+    padding-left: 5%;
+    margin-top: 20%;
+}
+.biography-width img{
+    width: 170%;
+}
+.second-part{
+    background-image: url(images/biography-bg.png);
+    height:1000px;
+    background-repeat: no-repeat;
+}
+h3{
+    font-size: 25px;
+    text-align: center;
+}
+.column{
+    float: left;
+    width: 30%;
+    padding:5px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.last-part{
+    text-align: center;
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    height: 500;
+    background-position: left;
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(45deg, tomato,blue);
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+h4{
+    font-size: 25px;
+}
+span{
+    color: yellowgreen;
+    font-weight: 500;
+    font-size: 20px;
+}
+.button-guru{
+    text-decoration: none;
+    background-image:linear-gradient(45deg, gray,blue);
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
